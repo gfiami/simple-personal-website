@@ -1,0 +1,114 @@
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+*{
+    font-family: "Merriweather", serif;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+.title-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("./8360587.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.title {
+    font-size: 72px;
+    font-weight: bold;
+    font-family: "Sacramento", cursive;
+}
+
+.text {
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.me-container{
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo{
+    border-radius: 50%;
+    width: 50%;
+
+}
+.photo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+hr{
+    border: dotted #c88dce 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 80px auto;
+    display: block;
+    unicode-bidi: isolate;
+   
+    overflow: hidden;
+}
+.skills-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.skills-title{
+    font-size: 32px;
+    font-family:"Montserrat", sans-serif
+}
+.skills-content-title{
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%;
+}
+.skills-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-content-content{
+    width: 600px;
+}
+
+.content-container{
+    margin-left: 10px;
+    width: 40%;
+}
+.contact-me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact-me h2{
+    font-family:"Montserrat", sans-serif
+}
+
+.footer{
+    margin-top: 20px;
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    background-color: #c88dce;
+}
+.footer a{
+    font-family:"Montserrat", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
